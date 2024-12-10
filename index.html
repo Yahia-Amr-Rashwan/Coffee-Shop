@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="photo/logo.png" alt="Logo">
+        </div>
+        <ul id="novelists" class="nav-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Menu">Menu</a></li>
+          <li><a href="#Product">Product</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Blogs">Blogs</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </nav>
+
+    <div id="Home" class="hero-section">
+        <img src="photo/hero2.png" alt="Coffee Background" class="hero-img">
+        <div class="hero-text">
+          <h1>Start Your Day With A <br> Fresh Coffee  </h1>
+          <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Dignissimos, necessitatibus <br>facere autem perferendis iusto error</p>
+          <button class="shop-btn">Shop Now</button>
+        </div>
+    </div>
+
+    <section id="About" class="about-us">
+        <h1>About Us</h1>
+        <br>
+        <div class="about-content">
+          <img src="photo/about.png" alt="About Us Image">
+          <div class="about-text">
+            <H2>What`s Make Our Coffe Special?</H2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti nemo nisi maxime quos ea alias vel hic dolore voluptatum officiis, quibusdam iusto modi animi beatae quo magnam architecto a</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, reiciendis suscipit unde explicabo labore nihil minus tempora ratione sequi et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, porro laboriosam aliquid sed facere optio!</p>
+            <button> Learn More</button>
+          </div>
+        </div>
+    </section>
+
+    <section class="top-categories">
+        <h1>Top Categories</h1>
+        <br>
+        <div class="categories-container">
+          <div class="category">
+            <img src="photo/c1.png" alt="Category 1">
+          </div>
+          <div class="category">
+            <img src="photo/c2.png" alt="Category 2">
+          </div>
+          <div class="category">
+            <img src="photo/c3.png" alt="Category 3">
+          </div>
+        </div>
+    </section>
+
+    <section id="Menu" class="menu-section">
+        <h1>Menu</h1>
+        <hr>
+        <div class="menu-container">
+          <div class="first-four">
+          <div class="menu-item">
+            <img src="photo/m1.png" alt="Coffee 1">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+            <div class="menu-item">
+            <img src="photo/m2.png" alt="Coffee 2">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+          <div class="menu-item">
+            <img src="photo/m3.png" alt="Coffee 3">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+          <div class="menu-item">
+            <img src="photo/m4.png" alt="Coffee 4">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+         </div>
+         <br>
+         <div class="secund-four">
+            <div class="menu-item">
+            <img src="photo/m5.png" alt="Coffee 5">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+          <div class="menu-item">
+            <img src="photo/m6.png" alt="Coffee 6">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+          <div class="menu-item">
+            <img src="photo/m7.png" alt="Coffee 7">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+          <div class="menu-item">
+            <img src="photo/m8.png" alt="Coffee 8">
+            <h2>Coffee</h2>
+            <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+          </div>
+        </div>
+    </section>
+
+    <section id="Product" class="Product-section">
+        <h1>Products</h1>
+        <hr>
+        <div class="Product-container">
+            <div class="product-item">
+              <img src="photo/arabica coffee.png" alt="Arabic Coffe">
+              <h2>Arabic Coffe</h2>
+              <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+            </div>
+              <div class="product-item">
+              <img src="photo/Black Coffee.png" alt="Black Coffee">
+              <h2>Black Coffee</h2>
+              <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+            </div>
+            <div class="product-item">
+              <img src="photo/Decaf caffee.png" alt="Decaf Coffee">
+              <h2>Decaf Coffee</h2>
+              <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+            </div>
+            <div class="product-item">
+              <img src="photo/Espresso coffee.png" alt="Espresso Coffee">
+              <h2>Espresso Coffee</h2>
+              <p><span class="old-price">$100</span> <span class="new-price">$99</span></p>
+           </div>
+    </section>
+
+    <section id="Gallery" class="gallery-section">
+        <h1> Our Gallery</h1>
+        <br>
+        <div class="gallery-container">
+          <div class="gallery-item"><img src="photo/image1.png" alt="Gallery Image 1"></div>
+          <div class="gallery-item"><img src="photo/image2.png" alt="Gallery Image 2"></div>
+          <div class="gallery-item"><img src="photo/image3.png" alt="Gallery Image 3"></div>
+          <div class="gallery-item"><img src="photo/image4.png" alt="Gallery Image 4"></div>
+          <div class="gallery-item"><img src="photo/image5.png" alt="Gallery Image 5"></div>
+          <div class="gallery-item"><img src="photo/image6.png" alt="Gallery Image 6"></div>
+        </div>
+    </section>
+
+    <section id="Contact" class="form-section">
+        <h1>Contact Us</h1>
+        <hr>
+        <p>Stay connected with our latest updates</p>
+        <form id="user-form" >
+          <div  class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Your Phone" required>
+          </div>
+          <button type="submit" onclick="validateForm()" class="send">Send</button>
+        </form>
+    </section>
+
+    <section id="Blogs" class="info-section">
+        <h1>Latest Blogs</h1>
+        <br>
+        <div class="info-container">
+          <div class="info-item">
+            <img src="photo/b1.png" alt="Info 1">
+            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Admin / 6 March 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  Libero ipsum nisi ipsam, odit voluptas hic optio expedita dolores rem voluptates?</p>
+            <button class="read-more-btn">Read More</button>
+          </div>
+          <div class="info-item">
+            <img src="photo/b2.png" alt="Info 2">
+            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Admin / 6 March 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Libero ipsum nisi ipsam, odit voluptas hic optio expedita dolores rem voluptates?</p>
+            <button class="read-more-btn">Read More</button>
+          </div>
+          <div class="info-item">
+            <img src="photo/b3.png" alt="Info 3">
+            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Admin / 6 March 2020</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Libero ipsum nisi ipsam, odit voluptas hic optio expedita dolores rem voluptates?</p>
+            <button class="read-more-btn">Read More</button>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="photo/logo.png" alt="Logo">
+          </div>
+          <p>Your trusted brand for quality products.</p>
+          <p>Designed by  <span>Yahia Rashwan </span> <br> &copy;Coffee Shop 2024 All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+      
+ <script src="script.js"></script>   
+ </body>
+</html>
